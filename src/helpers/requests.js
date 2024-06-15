@@ -36,7 +36,7 @@ export async function postBand(bandData) {
     }
 }
 
-export async function putBand(bandData, id) {
+export async function putBand(id, bandData) {
     try {
         const response = await baseRequest.put(`/update/${id}`, bandData);
 

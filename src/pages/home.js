@@ -1,12 +1,13 @@
 import Navbar from "../components/nav/navbar";
-import HomeMain from "../components/main/homeMain";
 
-const home = () =>{
+
+const Home = () =>{
     return(
         <div className="home-container">
             <Navbar/>
-            <HomeMain/>
         </div>
     );
 
 }
+
+export default Home;
